@@ -1,0 +1,47 @@
+
+#header-img {
+width: 150px;
+float: top;   
+}
+
+body {
+  background:linear-gradient(120deg, white, green);
+  font-family: "Glory", sans-serif;
+}
+
+h2 {
+  font-family: "Glory", sans-serif;
+}
+
+nav {
+position: fixed;
+top: 0px;
+left: 0px;
+background-color:green;
+height: 80px;
+width: 100%;
+display: flex;
+justify-content: space-around;
+font-family: "Glory", sans-serif;
+}
+
+.nav-link {
+   margin-left: 200px;
+   text-decoration: none;
+  color: black;
+}
+h2 {
+  font-size: 300%;
+  
+}
+iframe {
+  height:500px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: "Glory", sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: green;
